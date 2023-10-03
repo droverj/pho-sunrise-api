@@ -22,11 +22,12 @@ app.use(express.json());
 // Note: Feel free to replace the example routes below with your own
 
 //SECOND
-const petApiRoutes = require('./routes/pets-api');
-const matchApiRoutes = require('./routes/matches-api');
 const userApiRoutes = require('./routes/users-api');
-const relationshipsApiRoutes = require('./routes/relationships-api');
-const messageApiRoutes = require('./routes/messages-api');
+const sectionApiRoutes = require('./routes/sections-api');
+const itemApiRoutes = require('./routes/items-api');
+const orderApiRoutes = require('./routes/orders-api');
+const orderItemApiRoutes = require('./routes/order-items-api');
+const reviewApiRoutes = require('./routes/reviews-api');
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
@@ -34,11 +35,12 @@ const messageApiRoutes = require('./routes/messages-api');
 
 //FIRST
 app.use(cors());
-app.use('/api/pets', petApiRoutes);
-app.use('/api/matches', matchApiRoutes);
 app.use('/api/users', userApiRoutes);
-app.use('/api/relationships', relationshipsApiRoutes);
-app.use('/api/messages', messageApiRoutes);
+app.use('/api/sections', sectionApiRoutes);
+app.use('/api/items', itemApiRoutes);
+app.use('/api/orders', orderApiRoutes);
+app.use('/api/order-items', orderItemApiRoutes);
+app.use('/api/reviews', reviewApiRoutes);
 
 // Note: mount other resources here, using the same pattern above
 

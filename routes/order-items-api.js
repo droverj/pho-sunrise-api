@@ -37,39 +37,5 @@ router.get('/', (req, res) => {
 
 });
 
-router.get('/:id', (req, res) => {
-  return db.query(`
-  SELECT *
-  FROM users
-  WHERE id = $1
-  `, [req.params.id])
-    .then(({ rows: user }) => {
-      res.json(
-        user.reduce(
-          (previous, current) => ({ ...previous, [current.id]: current }),
-          {}
-        )
-      );
-    });
-});
-
-router.post('/', (req, res) => {
-  console.log(req.body);
-  return db.query(`
-  INSERT INTO users (email)
-  VALUES ($1)
-  RETURNING *
-  `, [req.body.email])
-    .then(({ rows: user }) => {
-      res.json(
-        user.reduce(
-          (previous, current) => ({ ...previous, [current.id]: current }),
-          {}
-        )
-      );
-    });
-
-});
-
 
 module.exports = router;

@@ -2,8 +2,6 @@ const express = require('express');
 const router = express.Router();
 const db = require('../db/connection');
 
-
-
 router.get('/:id', (req, res) => {
   return db.query(`
   SELECT pets.*
