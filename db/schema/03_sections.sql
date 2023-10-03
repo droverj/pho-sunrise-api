@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS sections;
+
+CREATE TABLE sections (
+  id SERIAL PRIMARY KEY NOT NULL,
+  title VARCHAR(50) NOT NULL
+);
