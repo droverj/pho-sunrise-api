@@ -23,7 +23,6 @@ app.use(express.json());
 
 //SECOND
 const userApiRoutes = require('./routes/users-api');
-const sectionApiRoutes = require('./routes/sections-api');
 const itemApiRoutes = require('./routes/items-api');
 const orderApiRoutes = require('./routes/orders-api');
 const orderItemApiRoutes = require('./routes/order-items-api');
@@ -36,7 +35,6 @@ const reviewApiRoutes = require('./routes/reviews-api');
 //FIRST
 app.use(cors());
 app.use('/api/users', userApiRoutes);
-app.use('/api/sections', sectionApiRoutes);
 app.use('/api/items', itemApiRoutes);
 app.use('/api/orders', orderApiRoutes);
 app.use('/api/order-items', orderItemApiRoutes);
