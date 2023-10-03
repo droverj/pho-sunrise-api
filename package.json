@@ -9,7 +9,7 @@
     "dev": "nodemon server.js",
     "db:reset": "node bin/resetdb.js"
   },
-  "author": "Lighthouse Labs",
+  "author": "Jodie Drover",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
