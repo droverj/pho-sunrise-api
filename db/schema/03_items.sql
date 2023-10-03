@@ -5,6 +5,5 @@ CREATE TABLE items (
   section_id INTEGER REFERENCES sections(id) ON DELETE CASCADE,
   name VARCHAR(50) NOT NULL,
   vietnamese VARCHAR(50) NOT NULL,
-  price NUMERIC(10, 2) NOT NULL,
-  image VARCHAR(255) NOT NULL
+  price NUMERIC(10, 2) NOT NULL
 );
