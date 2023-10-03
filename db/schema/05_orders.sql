@@ -7,5 +7,6 @@ CREATE TABLE orders (
   email VARCHAR(255) NOT NULL,
   order_placed_at TIMESTAMPTZ DEFAULT NOW(),
   subtotal NUMERIC(10, 2) NOT NULL,
-  total NUMERIC(10, 2) NOT NULL
+  total NUMERIC(10, 2) NOT NULL,
+  instructions TEXT
 );
