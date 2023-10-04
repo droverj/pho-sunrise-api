@@ -31,7 +31,6 @@ app.use(express.json());
 // Note: Feel free to replace the example routes below with your own
 
 //SECOND
-const userApiRoutes = require('./routes/users-api');
 const itemApiRoutes = require('./routes/items-api');
 const orderApiRoutes = require('./routes/orders-api');
 const orderItemApiRoutes = require('./routes/order-items-api');
@@ -43,7 +42,6 @@ const reviewApiRoutes = require('./routes/reviews-api');
 
 //FIRST
 app.use(cors());
-app.use('/api/users', userApiRoutes);
 app.use('/api/items', itemApiRoutes);
 app.use('/api/orders', orderApiRoutes);
 app.use('/api/order-items', orderItemApiRoutes);
