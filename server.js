@@ -9,6 +9,15 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 const cors = require("cors");
 
+// Allow requests from the React app's origin (adjust this to match your React app's URL)
+const allowedOrigins = ['http://localhost:3000']; // Add production URLs here
+
+const corsOptions = {
+  origin: allowedOrigins,
+};
+
+app.use(cors(corsOptions));
+
 
 // Load the logger first so all (static) HTTP requests are logged to STDOUT
 // 'dev' = Concise output colored by response status for development use.

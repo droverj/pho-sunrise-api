@@ -4,102 +4,75 @@ const db = require('../db/connection');
 
 router.get('/:id', (req, res) => {
   return db.query(`
-  SELECT pets.*
-  FROM pets
-  JOIN users
-  ON users.id = pets.user_id
-  WHERE users.id = $1
+    SELECT *
+    FROM reviews
+    JOIN users
+    ON users.id = reviews.user_id
+    WHERE users.id = $1
   `, [req.params.id])
-    .then(({ rows: pets }) => {
-      res.json(
-        pets);
+    .then(({ rows: userReviews }) => {
+      res.json(userReviews);
+    })
+    .catch((error) => {
+      console.error('Error fetching user reviews:', error);
+      res.status(500).json({ error: 'Internal server error' });
     });
 });
 
 router.get('/', (req, res) => {
   return db.query(`
-  SELECT *
-  FROM pets
+    SELECT *
+    FROM reviews
   `)
-    .then(({ rows: pets }) => {
-      res.json(
-        pets.reduce(
-          (previous, current) => ({ ...previous, [current.id]: current }),
-          {}
-        )
-      );
+    .then(({ rows: reviews }) => {
+      res.json(reviews);
+    })
+    .catch((error) => {
+      console.error('Error fetching reviews:', error);
+      res.status(500).json({ error: 'Internal server error' });
     });
 });
 
-
-router.post('/users', (req, res) => {
-  console.log("hello", req.body);
-  return db.query(`
-  SELECT *
-  FROM pets
-  JOIN users
-  ON users.id = pets.user_id
-  WHERE users.email = $1
-  `, [req.body.id])
-    .then(({ rows: pets }) => {
-      console.log('POST', pets);
-      res.json(
-        pets
-      );
-    });
-});
-
-
-router.get('/explore/:id/:userId', (req, res) => {
-  console.log(req.params);
-  return db.query(`
-  select id, user_id, name, breed, age, sex, spayed_or_neutered, size, city, description, photo_url
-  from pets where id
-  not in (
-    select other_pet as id from relationships where current_pet = $1 and other_pet is not null
-    union
-    (SELECT pets.id as id
-    FROM pets
-    WHERE user_id = $2 and pets.id is not null)
-    )
-  `, [Number(req.params.id), Number(req.params.userId)])
-    .then(({ rows: pets }) => {
-      res.json(
-        pets
-      );
-    });
-});
 
 router.post("/", (req, res) => {
-  // console.log(req.body);
+  const { user_id, rating, comment } = req.body;
 
-  return db
-    .query(
-      `
-  INSERT INTO pets (user_id, name, breed, age, sex, spayed_or_neutered, size, city, description, photo_url)
-  VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
-  RETURNING *
-  `,
-      [
-        req.body.user_id,
-        req.body.name,
-        req.body.breed,
-        req.body.age,
-        req.body.sex,
-        req.body.spayed_or_neutered,
-        req.body.size,
-        req.body.city,
-        req.body.description,
-        req.body.photo_url,
-      ]
-    )
-    .then(({ rows: pet }) => {
-      res.json(
-        pet.reduce(
-          (previous, current) => ({ ...previous, [current.id]: current }),
-          {}
+  // Validate request data
+  if (!user_id || !rating || !comment || rating < 1 || rating > 5) {
+    return res.status(400).json({ error: "Invalid data" });
+  }
+
+  // Check if a review already exists for the user
+  db.query(
+    "SELECT * FROM reviews WHERE user_id = $1",
+    [user_id]
+  )
+    .then(({ rows: existingReviews }) => {
+      if (existingReviews.length > 0) {
+        return res.status(409).json({ error: "User already submitted a review" });
+      }
+
+      // If no existing review, insert the new review
+      return db
+        .query(
+          `
+          INSERT INTO reviews (user_id, rating, comment, created_at, updated_at)
+          VALUES ($1, $2, $3, NOW(), NULL)
+          RETURNING *
+          `,
+          [user_id, rating, comment]
         )
-      );
+        .then(({ rows: [newReview] }) => {
+          res.status(201).json(newReview);
+        })
+        .catch((error) => {
+          console.error("Error inserting review:", error);
+          res.status(500).json({ error: "Internal server error" });
+        });
+    })
+    .catch((error) => {
+      console.error("Error checking existing reviews:", error);
+      res.status(500).json({ error: "Internal server error" });
     });
 });
 
@@ -108,17 +81,18 @@ router.delete("/:id", (req, res) => {
   return db
     .query(
       `
-  DELETE FROM pets WHERE pets.id = $1;`,
+      DELETE FROM reviews WHERE id = $1;
+      `,
       [req.params.id]
     )
-    .then(({ rows: pet }) => {
-      res.json(
-        pet.reduce(
-          (previous, current) => ({ ...previous, [current.id]: current }),
-          {}
-        )
-      );
+    .then(() => {
+      res.json({ message: 'Review deleted successfully' });
+    })
+    .catch((error) => {
+      console.error('Error deleting review:', error);
+      res.status(500).json({ error: 'Internal server error' });
     });
 });
+
 
 module.exports = router;
