@@ -63,6 +63,7 @@ router.post("/", (req, res) => {
           [user_id, rating, comment]
         )
         .then(({ rows: [newReview] }) => {
+
           res.status(201).json(newReview);
         })
         .catch((error) => {
@@ -75,6 +76,7 @@ router.post("/", (req, res) => {
       res.status(500).json({ error: "Internal server error" });
     });
 });
+
 
 router.delete("/:id", (req, res) => {
   console.log(req.params);
