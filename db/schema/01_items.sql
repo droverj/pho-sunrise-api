@@ -5,5 +5,5 @@ CREATE TABLE items (
   section VARCHAR(50) NOT NULL,
   name VARCHAR(50) NOT NULL,
   vietnamese VARCHAR(50) NOT NULL,
-  price NUMERIC(10, 2) NOT NULL
+  base_price NUMERIC(10, 2) NOT NULL
 );

@@ -79,14 +79,13 @@ router.post("/", (req, res) => {
 
 
 router.delete("/:id", (req, res) => {
-  const reviewId = req.params.id;
-
+  console.log(req.params);
   return db
     .query(
       `
-      DELETE FROM reviews WHERE id = $1
+      DELETE FROM reviews WHERE id = $1;
       `,
-      [reviewId]
+      [req.params.id]
     )
     .then(() => {
       res.json({ message: 'Review deleted successfully' });

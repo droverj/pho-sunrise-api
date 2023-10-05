@@ -1,3 +1,4 @@
-INSERT INTO items (section, name, vietnamese, price) VALUES ('Appetizers', 'Appetizer 1', 'Món khai Vị', 5.99);
-INSERT INTO items (section, name, vietnamese, price) VALUES ('Appetizers', 'Appetizer 2', 'Món khai Vị', 6.99);
-INSERT INTO items (section, name, vietnamese, price) VALUES ('Phở - Rice Noodle Soup', 'Phở 1', 'Phở', 10.99);
+INSERT INTO items (section, name, vietnamese, base_price) VALUES ('Appetizers', 'Spring Rolls', 'Món khai Vị', 5.99);
+INSERT INTO items (section, name, vietnamese, base_price) VALUES ('Appetizers', 'Wontons', 'Món khai Vị', 6.99);
+INSERT INTO items (section, name, vietnamese, base_price) VALUES ('Appetizers', 'Mango Salad', 'Món khai Vị', 13.99);
+INSERT INTO items (section, name, vietnamese, base_price) VALUES ('Phở - Rice Noodle Soup', 'Beef Noodle Soup', 'Phở', 10.99);
