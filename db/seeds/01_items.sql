@@ -13,8 +13,8 @@ VALUES
 INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, base_price, price_adjustment)
 VALUES
   ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'no meat', 13.99, 0),
-  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with grilled chicken', 2.00, 0),
-  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with shrimp', 3.00, 0);
+  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with grilled chicken', 13.99, 2.00),
+  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with shrimp', 13.99, 3.00);
 
 -- Beef Noodle Soup options
 INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, base_price, price_adjustment)
