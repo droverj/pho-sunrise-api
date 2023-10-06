@@ -20,20 +20,15 @@ router.get('/:id', (req, res) => {
 router.get('/', (req, res) => {
   return db.query(`
     SELECT
-      items.id AS id,
-      items.section AS section,
-      items.name AS name,
-      items.vietnamese AS vietnamese,
-      items.base_price AS base_price,
-      json_agg(json_build_object(
-        'size', item_options.size,
-        'pieces', item_options.pieces,
-        'ingredient', item_options.ingredient,
-        'price_adjustment', item_options.price_adjustment
-      )) AS options
+      id,
+      section,
+      section_vietnamese,
+      name,
+      name_vietnamese AS vietnamese,
+      item_option,
+      base_price,
+      price_adjustment
     FROM items
-    LEFT JOIN item_options ON items.id = item_options.item_id
-    GROUP BY items.id
   `)
     .then(({ rows }) => {
       res.json(rows);
