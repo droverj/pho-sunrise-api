@@ -1,0 +1,48 @@
+,id,section,section_vietnamese,name,name_vietnamese,item_option,price
+,1,Appetizers,Mon Thai Vi,Spring Rolls (Meat & Vegetarian),Cha Gio,2 rolls,6.50
+,2,Appetizers,Mon Thai Vi,Spring Rolls (Meat & Vegetarian),Cha Gio,4 rolls,12.50
+,3,Appetizers,Mon Thai Vi,Shrimp Rolls,Goi Cuon Tom,2 rolls,6.95
+,4,Appetizers,Mon Thai Vi,Shrimp Rolls,Gio Cuon Tom,4 rolls,13.50
+,5,Appetizers,Mon Thai Vi,Grilled Pork Rolls,Goi Cuon Thit Nuong,2 rolls,6.95
+,6,Appetizers,Mon Thai Vi,Grilled Pork Rolls,Goi Cuon Thit Nuong,4 rolls,13.50
+,7,Appetizers,Mon Thai Vi,Grilled Beef Rolls,Goi Cuon Bo Nuong,2 rolls,7.50
+,8,Appetizers,Mon Thai Vi,Grilled Beef Rolls,Goi Cuon Bo Nuong,4 rolls,13.95
+,9,Appetizers,Mon Thai Vi,Grilled Meat Balls Rolls,Nem Nuon Cuon,2 rolls,6.95
+,10,Appetizers,Mon Thai Vi,Gilled Meat Balls Rolls,Nem Nuon Cuon,4 rolls,13.50
+,11,Appetizers,Mon Thai Vi,Shredded Pork Rolls,Bi Cuon,2 rolls,7.50
+,12,Appetizers,Mon Thai Vi,Shredded Pork Rolls,Bi Cuon,4 rolls,13.95
+,13,Appetizers,Mon Thai Vi,Minced Shrimp on Sugar Can,Chao Tom,2 pieces,7.95
+,14,Appetizers,Mon Thai Vi,Minced Shrimp on Sugar Can,Chao Tom,4 pieces,14.95
+,15,Appetizers,Mon Thai Vi,Grilled Pork Meat Balls,Nem Nuon,2 pieces,7.50
+,16,Appetizers,Mon Thai Vi,Grilled Pork Meat Balls,Nem Nuon,4 pieces,13.95
+,17,Appetizers,Mon Thai Vi,Deep Fried Cheese Wontons with Shrimp and Crab Meats,Wonton Pho Mai Chien,4 pieces,7.95
+,18,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,no meat,13.50
+,19,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,grilled chicken,14.50
+,20,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,shrimp,14.95
+,21,Appetizers,Mon Thai Vi,Vietnamese Fried Shrimp Cake and Mungbean,Banh Cong,2 pieces,7.50
+,22,Appetizers,Mon Thai Vi,"Steamed Ground Pork Rice Rolls, Vietnamese Ham",Banh Cuon Cha Lua,,10.95
+,23,Appetizers,Mon Thai Vi,"Steamed Ground Pork Rice Rolls, Fried Shrimp Cake with Vietnamese Ham","Banh con (Cha Lua, Banh Cong)",,13.50
+,24,Appetizers,Mon Thai Vi,Deep Fried Shrimp Tempura,Tom Chien Xu,10 pieces,12.50
+,25,Appetizers,Mon Thai Vi,Thai Style Tom Yum Soup,Lua Thai,tofu - no meat,12.95
+,26,Appetizers,Mon Thai Vi,Thai Style Tom Yum Soup,Lua Thai,chicken,13.95
+,27,Appetizers,Mon Thai Vi,Thai Style Tom Yum Soup,Lua Thai,shrimp,14.95
+,28,Appetizers,Mon Thai Vi,Thai Tom Kha Kai Coconut Sour Soup,Lua Thai,tofu - no meat,12.95
+,29,Appetizers,Mon Thai Vi,Thai Tom Kha Kai Coconut Sour Soup,Lua Thai,chicken,13.95
+,30,Appetizers,Mon Thai Vi,Thai Tom Kha Kai Coconut Sour Soup,Lua Thai,shrimp,14.95
+,31,Appetizers,Mon Thai Vi,Deep Fried Chicken Wings,Chicken Wings,,12.50
+,32,Rice Noodle Soup,Pho,Sunrise Special House Beef Noodle Soup,Pho dac Biet Sunrise,small,10.95
+,33,Rice Noodle Soup,Pho,Sunrise Special House Beef Noodle Soup,Pho dac Biet Sunrise,medium,11.95
+,34,Rice Noodle Soup,Pho,Sunrise Special House Beef Noodle Soup,Pho dac Biet Sunrise,large,13.95
+,35,Rice Noodle Soup,Pho,Sunrise Special House Beef Noodle Soup,Pho dac Biet Sunrise,extra large,14.95
+,36,Rice Noodle Soup,Pho,"Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup","Pho Tai, Nam, Bo Vien",small,10.95
+,37,Rice Noodle Soup,Pho,"Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup","Pho Tai, Nam, Bo Vien",medium,11.95
+,38,Rice Noodle Soup,Pho,"Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup","Pho Tai, Nam, Bo Vien",large,13.95
+,39,Rice Noodle Soup,Pho,"Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup","Pho Tai, Nam, Bo Vien",extra large,14.95
+,40,Rice Noodle Soup,Pho,"Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup","Pho Bo, Ga",small,10.95
+,41,Rice Noodle Soup,Pho,"Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup","Pho Bo, Ga",medium,11.95
+,42,Rice Noodle Soup,Pho,"Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup","Pho Bo, Ga",large,13.95
+,43,Rice Noodle Soup,Pho,"Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup","Pho Bo, Ga",extra large,14.95
+,44,Rice Noodle Soup,Pho,Shrimp Noodle Soup,Pho Tom,small,10.95
+,45,Rice Noodle Soup,Pho,Shrimp Noodle Soup,Pho Tom,medium,11.95
+,46,Rice Noodle Soup,Pho,Shrimp Noodle Soup,Pho Tom,large,13.95
+,47,Rice Noodle Soup,Pho,Shrimp Noodle Soup,Pho Tom,extra large,14.95

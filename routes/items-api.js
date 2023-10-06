@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
       section,
       section_vietnamese,
       name,
-      name_vietnamese AS vietnamese,
+      name_vietnamese,
       item_option,
       price
     FROM items

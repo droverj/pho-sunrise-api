@@ -1,25 +1,47 @@
--- Spring Rolls options
-INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, price)
-VALUES
-  ('Appetizers', 'Món khai Vị', 'Spring Rolls', 'Chả Giò', '2 rolls', 5.99),
-  ('Appetizers', 'Món khai Vị', 'Spring Rolls', 'Chả Giò', '4 rolls', 6.99);
-
--- Wontons options
-INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, price)
-VALUES
-  ('Appetizers', 'Món khai Vị', 'Wontons', 'Hoành Thánh Tôm Chiên', '4 pieces', 6.99);
-
--- Mango Salad options
-INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, price)
-VALUES
-  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'no meat', 13.99),
-  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with grilled chicken', 15.99),
-  ('Appetizers', 'Món khai Vị', 'Mango Salad', 'Gỏi Xoài', 'with shrimp', 16.99);
-
--- Beef Noodle Soup options
-INSERT INTO items (section, section_vietnamese, name, name_vietnamese, item_option, price)
-VALUES
-  ('Rice Noodle Soup', 'Phở', 'Beef Noodle Soup', 'Phở', 'small', 10.99),
-  ('Rice Noodle Soup', 'Phở', 'Beef Noodle Soup', 'Phở', 'medium', 11.49),
-  ('Rice Noodle Soup', 'Phở', 'Beef Noodle Soup', 'Phở', 'large', 12.49),
-  ('Rice Noodle Soup', 'Phở', 'Beef Noodle Soup', 'Phở', 'extra large', 13.49);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Spring Rolls (Meat & Vegetarian)', 'Cha Gio', '2 rolls', 6.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Spring Rolls (Meat & Vegetarian)', 'Cha Gio', '4 rolls', 12.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Shrimp Rolls', 'Goi Cuon Tom', '2 rolls', 6.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Shrimp Rolls', 'Gio Cuon Tom', '4 rolls', 13.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Pork Rolls', 'Goi Cuon Thit Nuong', '2 rolls', 6.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Pork Rolls', 'Goi Cuon Thit Nuong', '4 rolls', 13.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Beef Rolls', 'Goi Cuon Bo Nuong', '2 rolls', 7.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Beef Rolls', 'Goi Cuon Bo Nuong', '4 rolls', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Meat Balls Rolls', 'Nem Nuon Cuon', '2 rolls', 6.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Gilled Meat Balls Rolls', 'Nem Nuon Cuon', '4 rolls', 13.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Shredded Pork Rolls', 'Bi Cuon', '2 rolls', 7.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Shredded Pork Rolls', 'Bi Cuon', '4 rolls', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Minced Shrimp on Sugar Can', 'Chao Tom', '2 pieces', 7.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Minced Shrimp on Sugar Can', 'Chao Tom', '4 pieces', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Pork Meat Balls', 'Nem Nuon', '2 pieces', 7.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Grilled Pork Meat Balls', 'Nem Nuon', '4 pieces', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Deep Fried Cheese Wontons with Shrimp and Crab Meats', 'Wonton Pho Mai Chien', '4 pieces', 7.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Fresh Mango Salad with Cashew Nuts', 'Ga Nuong', 'no meat', 13.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Fresh Mango Salad with Cashew Nuts', 'Ga Nuong', 'grilled chicken', 14.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Fresh Mango Salad with Cashew Nuts', 'Ga Nuong', 'shrimp', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Vietnamese Fried Shrimp Cake and Mungbean', 'Banh Cong', '2 pieces', 7.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Steamed Ground Pork Rice Rolls, Vietnamese Ham', 'Banh Cuon Cha Lua', null, 10.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Steamed Ground Pork Rice Rolls, Fried Shrimp Cake with Vietnamese Ham', 'Banh con (Cha Lua, Banh Cong)', null, 13.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Deep Fried Shrimp Tempura', 'Tom Chien Xu', '10 pieces', 12.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Style Tom Yum Soup', 'Lua Thai', 'tofu - no meat', 12.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Style Tom Yum Soup', 'Lua Thai', 'chicken', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Style Tom Yum Soup', 'Lua Thai', 'shrimp', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Tom Kha Kai Coconut Sour Soup', 'Lua Thai', 'tofu - no meat', 12.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Tom Kha Kai Coconut Sour Soup', 'Lua Thai', 'chicken', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Thai Tom Kha Kai Coconut Sour Soup', 'Lua Thai', 'shrimp', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Appetizers', 'Mon Thai Vi', 'Deep Fried Chicken Wings', 'Chicken Wings', null, 12.5);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Sunrise Special House Beef Noodle Soup', 'Pho dac Biet Sunrise', 'small', 10.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Sunrise Special House Beef Noodle Soup', 'Pho dac Biet Sunrise', 'medium', 11.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Sunrise Special House Beef Noodle Soup', 'Pho dac Biet Sunrise', 'large', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Sunrise Special House Beef Noodle Soup', 'Pho dac Biet Sunrise', 'extra large', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup', 'Pho Tai, Nam, Bo Vien', 'small', 10.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup', 'Pho Tai, Nam, Bo Vien', 'medium', 11.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup', 'Pho Tai, Nam, Bo Vien', 'large', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Well Done Flank, Beef Balls Rice Noodle Soup', 'Pho Tai, Nam, Bo Vien', 'extra large', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup', 'Pho Bo, Ga', 'small', 10.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup', 'Pho Bo, Ga', 'medium', 11.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup', 'Pho Bo, Ga', 'large', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Rare Lean Beef, Flank, Soft Tendon, Tripe, Beef Balls with Chicken Rice Noodle Soup', 'Pho Bo, Ga', 'extra large', 14.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Shrimp Noodle Soup', 'Pho Tom', 'small', 10.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Shrimp Noodle Soup', 'Pho Tom', 'medium', 11.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Shrimp Noodle Soup', 'Pho Tom', 'large', 13.95);
+insert into items (section, section_vietnamese, name, name_vietnamese, item_option, price) values ('Rice Noodle Soup', 'Pho', 'Shrimp Noodle Soup', 'Pho Tom', 'extra large', 14.95);
