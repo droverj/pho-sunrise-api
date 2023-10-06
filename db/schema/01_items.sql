@@ -7,6 +7,5 @@ CREATE TABLE items (
   name VARCHAR(50) NOT NULL,
   name_vietnamese VARCHAR(50) NOT NULL,
   item_option VARCHAR(50),
-  base_price NUMERIC(10, 2) NOT NULL,
-  price_adjustment NUMERIC(10, 2)
+  price NUMERIC(10, 2) NOT NULL
 );

@@ -26,8 +26,7 @@ router.get('/', (req, res) => {
       name,
       name_vietnamese AS vietnamese,
       item_option,
-      base_price,
-      price_adjustment
+      price
     FROM items
   `)
     .then(({ rows }) => {
