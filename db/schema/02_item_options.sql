@@ -4,7 +4,7 @@ CREATE TABLE item_options (
   id SERIAL PRIMARY KEY,
   item_id INT REFERENCES items(id) ON DELETE CASCADE,
   size VARCHAR(50),
-  quantity INT,
+  pieces INT,
   ingredient VARCHAR(255),
   price_adjustment NUMERIC(10, 2) NOT NULL
 );

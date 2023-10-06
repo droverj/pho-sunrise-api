@@ -27,7 +27,7 @@ router.get('/', (req, res) => {
       items.base_price AS base_price,
       json_agg(json_build_object(
         'size', item_options.size,
-        'quantity', item_options.quantity,
+        'pieces', item_options.pieces,
         'ingredient', item_options.ingredient,
         'price_adjustment', item_options.price_adjustment
       )) AS options
