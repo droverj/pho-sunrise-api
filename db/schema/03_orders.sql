@@ -8,5 +8,6 @@ CREATE TABLE orders (
   order_placed_at TIMESTAMPTZ DEFAULT NOW(),
   subtotal NUMERIC(10, 2) NOT NULL,
   total NUMERIC(10, 2) NOT NULL,
+  items_quantity INTEGER NOT NULL,
   instructions TEXT
 );
