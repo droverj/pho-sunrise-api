@@ -2,23 +2,6 @@ const express = require('express');
 const router = express.Router();
 const db = require('../db/connection');
 
-router.get('/:id', (req, res) => {
-  return db.query(`
-    SELECT *
-    FROM reviews
-    JOIN users
-    ON users.id = reviews.user_id
-    WHERE users.id = $1
-  `, [req.params.id])
-    .then(({ rows: userReviews }) => {
-      res.json(userReviews);
-    })
-    .catch((error) => {
-      console.error('Error fetching user reviews:', error);
-      res.status(500).json({ error: 'Internal server error' });
-    });
-});
-
 router.get('/', (req, res) => {
   return db.query(`
     SELECT *
