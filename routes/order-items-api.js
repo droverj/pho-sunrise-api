@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
 });
 
 router.post('/', async (req, res) => {
-  const orderItemData = req.body; // Assuming orderItemData is sent in the request body
+  const orderItemData = req.body;
 
   try {
     // Validate orderItemData
@@ -35,8 +35,8 @@ router.post('/', async (req, res) => {
 
     // Insert orderItemData into the "order_items" table
     const orderItemQuery = `
-      INSERT INTO order_items (order_id, item_id, quantity, item_name, price)
-      VALUES ($1, $2, $3, $4, $5)
+      INSERT INTO order_items (order_id, item_id, quantity, item_name, item_option, price)
+      VALUES ($1, $2, $3, $4, $5, $6)
       RETURNING *;
     `;
 
@@ -45,10 +45,9 @@ router.post('/', async (req, res) => {
       orderItemData.item_id,
       orderItemData.quantity,
       orderItemData.item_name,
+      orderItemData.item_option,
       orderItemData.price,
     ];
-
-    console.log(orderItemValues);
 
     // Use your "db" module or connection to execute the order item query
     const orderItemResult = await db.query(orderItemQuery, orderItemValues);

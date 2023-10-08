@@ -6,5 +6,6 @@ CREATE TABLE order_items (
   item_id INTEGER REFERENCES items(id),
   quantity INTEGER NOT NULL,
   item_name VARCHAR(150) NOT NULL,
+  item_option VARCHAR (50),
   price NUMERIC(10, 2) NOT NULL
 );
