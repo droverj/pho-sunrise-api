@@ -35,6 +35,7 @@ const itemApiRoutes = require('./routes/items-api');
 const orderApiRoutes = require('./routes/orders-api');
 const orderItemApiRoutes = require('./routes/order-items-api');
 const reviewApiRoutes = require('./routes/reviews-api');
+const stripeApiRoutes = require('./routes/stripe-api');
 
 // Mount all resource routes
 // Note: Feel free to replace the example routes below with your own
@@ -46,6 +47,7 @@ app.use('/api/items', itemApiRoutes);
 app.use('/api/orders', orderApiRoutes);
 app.use('/api/order-items', orderItemApiRoutes);
 app.use('/api/reviews', reviewApiRoutes);
+app.use('/api/stripe', stripeApiRoutes);
 
 // Note: mount other resources here, using the same pattern above
 

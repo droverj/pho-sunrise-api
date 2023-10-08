@@ -74,10 +74,23 @@ router.get('/', async (req, res) => {
   }
 });
 
-router.post('/submit-order', async (req, res) => {
+router.post('/', async (req, res) => {
   const orderData = req.body; // Assuming orderData is sent in the request body
 
   try {
+    // Validate orderData
+    if (
+      !orderData.name ||
+      !orderData.phone_number ||
+      !orderData.email ||
+      orderData.subtotal < 0 ||
+      orderData.total < 0 ||
+      orderData.items_quantity <= 0 ||
+      !Array.isArray(orderData.cart) || orderData.cart.length === 0
+    ) {
+      return res.status(400).json({ error: 'Invalid order data' });
+    }
+
     // Insert orderData into the "orders" table
     const orderQuery = `
       INSERT INTO orders (user_id, name, phone_number, email, subtotal, total, items_quantity, instructions)
@@ -98,25 +111,6 @@ router.post('/submit-order', async (req, res) => {
 
     // Use your "db" module or connection to execute the order query
     const orderResult = await db.query(orderQuery, orderValues);
-
-    // Handle inserting order items into the "order_items" table
-    for (const item of orderData.cart) {
-      const itemQuery = `
-        INSERT INTO order_items (order_id, item_id, quantity, item_name, price)
-        VALUES ($1, $2, $3, $4, $5);
-      `;
-
-      const itemValues = [
-        orderResult.rows[0].id, // Use the id from the inserted order
-        item.id,
-        item.quantity,
-        item.name,
-        item.price,
-      ];
-
-      // Use your "db" module or connection to execute the item query
-      await db.query(itemQuery, itemValues);
-    }
 
     res.json({ message: 'Order submitted successfully', order: orderResult.rows[0] });
   } catch (error) {

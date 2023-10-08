@@ -18,7 +18,8 @@
     "express": "^4.17.1",
     "javascript-time-ago": "^2.5.9",
     "morgan": "^1.9.1",
-    "pg": "^8.8.0"
+    "pg": "^8.8.0",
+    "stripe": "^13.9.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.13"

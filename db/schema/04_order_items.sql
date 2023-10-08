@@ -5,6 +5,6 @@ CREATE TABLE order_items (
   order_id INTEGER REFERENCES orders(id) ON DELETE CASCADE,
   item_id INTEGER REFERENCES items(id),
   quantity INTEGER NOT NULL,
-  item_name VARCHAR(50) NOT NULL,
+  item_name VARCHAR(150) NOT NULL,
   price NUMERIC(10, 2) NOT NULL
 );
