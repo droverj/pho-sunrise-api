@@ -5,18 +5,27 @@ const db = require('../db/connection');
 router.get('/', async (req, res) => {
   try {
     const query = `
-      SELECT *
+      SELECT order_id, ARRAY_AGG(json_build_object(
+        'id', id,
+        'item_id', item_id,
+        'quantity', quantity,
+        'item_name', item_name,
+        'item_option', item_option,
+        'price', price
+      )) AS items
       FROM order_items
+      GROUP BY order_id
     `;
 
     const result = await db.query(query);
 
     res.json(result.rows);
   } catch (error) {
-    console.error('Error fetching orders:', error);
-    res.status(500).json({ error: 'An error occurred while fetching orders.' });
+    console.error('Error fetching order items:', error);
+    res.status(500).json({ error: 'An error occurred while fetching order items.' });
   }
 });
+
 
 router.post('/', async (req, res) => {
   const orderItemData = req.body;
