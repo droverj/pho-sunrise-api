@@ -15,6 +15,7 @@ router.get('/', async (req, res) => {
       )) AS items
       FROM order_items
       GROUP BY order_id
+      ORDER BY order_id DESC
     `;
 
     const result = await db.query(query);
