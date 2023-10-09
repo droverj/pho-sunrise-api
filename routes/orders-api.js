@@ -26,6 +26,7 @@ router.get('/', async (req, res) => {
         oi.price AS item_price
       FROM orders o
       LEFT JOIN order_items oi ON o.id = oi.order_id
+      ORDER BY o.id DESC;
     `;
 
     const result = await db.query(query);
@@ -62,7 +63,7 @@ router.get('/', async (req, res) => {
           item_id: row.item_id,
           quantity: row.item_quantity,
           item_name: row.item_name,
-          item_name: row.item_option,
+          item_option: row.item_option,
           price: row.item_price,
         };
         orderMap.get(orderId).order_items.push(orderItem);
