@@ -4,7 +4,7 @@ const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const router = express.Router();
 
 router.post('/process-payment', async (req, res) => {
-  const { paymentMethodId, amount } = req.body;
+  const { paymentMethodId, billingDetails, amount } = req.body;
 
   try {
     // Create a PaymentIntent
@@ -15,6 +15,11 @@ router.post('/process-payment', async (req, res) => {
       confirmation_method: 'automatic',
       confirm: true,
       return_url: 'http://localhost:3000',
+      payment_method_options: {
+        card: {
+          billing_details: billingDetails,
+        },
+      },
     });
 
     // If the paymentIntent is successful, you can send a success response
