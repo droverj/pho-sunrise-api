@@ -45,7 +45,7 @@ router.get('/', async (req, res) => {
           name: row.order_name,
           phone_number: row.phone_number,
           email: row.email,
-          order_placed_at: row.order_placed_at,
+          order_placed_at: formatOrderPlacedAt(row.order_placed_at),
           subtotal: row.subtotal,
           total: row.total,
           items_quantity: row.items_quantity,
@@ -69,6 +69,12 @@ router.get('/', async (req, res) => {
         orderMap.get(orderId).order_items.push(orderItem);
       }
     });
+
+    // Helper function to format order_placed_at
+    function formatOrderPlacedAt(dateTimeString) {
+      const options = { year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' };
+      return new Date(dateTimeString).toLocaleString('en-US', options);
+    }
 
     res.json(orders);
   } catch (error) {
