@@ -6,6 +6,7 @@ router.get('/', (req, res) => {
   return db.query(`
     SELECT *
     FROM reviews
+    ORDER BY id DESC;
   `)
     .then(({ rows: reviews }) => {
       res.json(reviews);
@@ -18,7 +19,7 @@ router.get('/', (req, res) => {
 
 
 router.post("/", (req, res) => {
-  const { user_id, rating, comment } = req.body;
+  const { user_id, user_image, rating, comment } = req.body;
 
   // Validate request data
   if (!user_id || !rating || !comment || rating < 1 || rating > 5) {
@@ -39,11 +40,11 @@ router.post("/", (req, res) => {
       return db
         .query(
           `
-          INSERT INTO reviews (user_id, rating, comment, created_at, updated_at)
-          VALUES ($1, $2, $3, NOW(), NULL)
+          INSERT INTO reviews (user_id, user_image, rating, comment, created_at, updated_at)
+          VALUES ($1, $2, $3, $4, NOW(), NULL)
           RETURNING *
           `,
-          [user_id, rating, comment]
+          [user_id, user_image, rating, comment]
         )
         .then(({ rows: [newReview] }) => {
 
