@@ -19,7 +19,7 @@
 ,,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,no meat,13.50
 ,,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,grilled chicken,14.50
 ,,Appetizers,Mon Thai Vi,Thai Fresh Mango Salad with Cashew Nuts,Ga Nuong,shrimp,14.95
-,,Appetizers,Mon Thai Vi,Vietnamese Fried Shrimp Cake and Mungbean,Banh Cong,2 pieces,7.50
+,,Appetizers,Mon Thai Vi,Vietnamese Fried Shrimp Cake and Mung Bean,Banh Cong,2 pieces,7.50
 ,,Appetizers,Mon Thai Vi,"Steamed Ground Pork Rice Rolls, Vietnamese Ham",Banh Cuon Cha Lua,,10.95
 ,,Appetizers,Mon Thai Vi,"Steamed Ground Pork Rice Rolls, Fried Shrimp Cake with Vietnamese Ham","Banh con (Cha Lua, Banh Cong)",,13.50
 ,,Appetizers,Mon Thai Vi,Deep Fried Shrimp Tempura,Tom Chien Xu,10 pieces,12.50
@@ -102,10 +102,10 @@
 ,,Rice Noodle Soup,Pho,"Well Done Beef Flank, Soft Tendon, Beef Tripe Rice Noodle Soup","Pho Nam (Chin), Gan, Sach",medium,11.50
 ,,Rice Noodle Soup,Pho,"Well Done Beef Flank, Soft Tendon, Beef Tripe Rice Noodle Soup","Pho Nam (Chin), Gan, Sach",large,13.50
 ,,Rice Noodle Soup,Pho,"Well Done Beef Flank, Soft Tendon, Beef Tripe Rice Noodle Soup","Pho Nam (Chin), Gan, Sach",extra large,14.50
-,,Rice Noodle Soup,Pho,Beef Balls Rice Noodle Soup,Pho Bo Vien,small,10.50
-,,Rice Noodle Soup,Pho,Beef Balls Rice Noodle Soup,Pho Bo Vien,medium,11.50
-,,Rice Noodle Soup,Pho,Beef Balls Rice Noodle Soup,Pho Bo Vien,large,13.50
-,,Rice Noodle Soup,Pho,Beef Balls Rice Noodle Soup,Pho Bo Vien,extra large,14.50
+,,Rice Noodle Soup,Pho,Beef Ball Rice Noodle Soup,Pho Bo Vien,small,10.50
+,,Rice Noodle Soup,Pho,Beef Ball Rice Noodle Soup,Pho Bo Vien,medium,11.50
+,,Rice Noodle Soup,Pho,Beef Ball Rice Noodle Soup,Pho Bo Vien,large,13.50
+,,Rice Noodle Soup,Pho,Beef Ball Rice Noodle Soup,Pho Bo Vien,extra large,14.50
 ,,Rice Noodle Soup,Pho,Chicken Rice Noodle Soup,Pho Ga,small,10.50
 ,,Rice Noodle Soup,Pho,Chicken Rice Noodle Soup,Pho Ga,medium,11.50
 ,,Rice Noodle Soup,Pho,Chicken Rice Noodle Soup,Pho Ga,large,13.50
@@ -156,9 +156,9 @@
 ,,Vietnamese Fried Rice,Com Chien,Beef Fried Rice,"Com Chien, Bo",,14.50
 ,,Vietnamese Fried Rice,Com Chien,Shrimp Fried Rice,"Com Chien, Tom",,14.95
 ,,Vietnamese Fried Rice,Com Chien,Seafood Fried Rice,"Com Chien, Do Bien",,15.50
-,,Vietnamese Fried Rice,Com Chien,Grilled Chicken with Fried Rice (*contains wheat),"Com Chien, Ga Nuong",,14.95
-,,Vietnamese Fried Rice,Com Chien,Grilled Beef with Fried Rice (*contains wheat),"Com Chien, Bo Nuong",,15.50
-,,Vietnamese Fried Rice,Com Chien,Grilled Pork with Fried Rice (*contains wheat),"Com Chien, Suon Nuong",,14.95
+,,Vietnamese Fried Rice,Com Chien,Grilled Chicken with Fried Rice,"Com Chien, Ga Nuong",,14.95
+,,Vietnamese Fried Rice,Com Chien,Grilled Beef with Fried Rice,"Com Chien, Bo Nuong",,15.50
+,,Vietnamese Fried Rice,Com Chien,Grilled Pork with Fried Rice,"Com Chien, Suon Nuong",,14.95
 ,,Vietnamese Fried Rice,Com Chien,Yang Chow Fried Rice,"Com Chien Duong, Chau",,15.50
 ,,Vermicelli Bowls,Bun,Spring Rolls on Vermicelli,Bun Cha Gio,,12.50
 ,,Vermicelli Bowls,Bun,Grilled Pork on Vermicelli,Bun Thit Nuong,,13.50
@@ -187,219 +187,219 @@
 ,,Vermicelli Bowls,Bun,"Minced Shrimp on Sugar Cane, Grilled Pork on Vermicelli","Bun Chao Tom, Thit Nuong",,13.95
 ,,Vermicelli Bowls,Bun,"Minced Shrimp on Sugar Cane, Grilled Beef on Vermicelli","Bun chao Tom, Bo Nuong",,13.95
 ,,Vermicelli Bowls,Bun,"Stir Fried Beef with Lemon Grass, Hot Pepper & Peanut on Vermicelli",Bun Bo Xao sa ot,,14.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Beef Wrapped in Wild Betel Leaves, Grilled Chicken","Bo La Lot, Ga Nuong",,21.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Beef Wrapped in Wild Betel Leaves, Beef Wrapped Onion","Bo La Lot, Bo Tai Quan",,21.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Beef Wrapped in Wild Betel Leaves, Grilled Minced Shrimp on Sugar Cane","Bo La Lot, Chao Tom",,22.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Beef Wrapped in Wild Betel Leaved, Grilled Pork Meat Balls","Bo La Lot, Nem Nuong",,22.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Minced Shrimp on Sugar Cane, Grilled Pork Meat Balls","Chao Tom, Nem Nuong",,22.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Grilled Beef Wrapped in Wild Betel Leaves, Grilled Pork","Bo La Lot, Thit Nuong",,21.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Beef Wrapped Onion, Grilled Minced Shrimp on Sugar Cane","Bo Tai Quen, Chao Tom",,21.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Been Wrapped Onion, Grilled Pork Meat Balls","Bo Tai Quan, Nem Nuong",,21.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Beef Wrapped Onion, Grilled Pork","Bo Tai Quan, Thịt Nuong",,19.50
-,,Vermicelli Platters (Rice Vermicelli Woven),Banh hoi,"Beef Wrapped Onion, Grilled Chicken","Bo Tai Quan, Ga Nuong",,19.50
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Rice and Egg Noodle Soup",Hu Tieu Mi ,regular,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Rice and Egg Noodle Soup",Kho Hoac Nuoc,soup on the side,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Clear Noodle Soup",Hu Tieu My Tho,regular,15.50
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Clear Noodle Soup",Kho Hoac Nuoc,soup on the side,15.50
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Egg Noodle Soup",Mi Dac Biet,regular,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices with Egg Noodle Soup",Kho Hoac Nuoc,soup on the side,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Hue Spicy Rice Noodle Soup with BBQ Pork Slices, Vietnamese Ham and Beef",Bun Bo Hue (Cay),spicy,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,"Seafood, BBQ Pork Slices Tapioca Noodle Soup",Banh Canh,,13.95
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,Wonton Soup,Hoanh Thanh Sup,,12.50
-,,Special Vietnamese Noodle Soups,Special Vietnamese Noodle Soups,Wonton and Egg Noodle Soup,Toanh Thanh Mi,,12.50
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,chicken,14.95
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,beef,15.50
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,shrimp,15.95
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,seafood,16.50
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,"shrimp, chicken",15.95
-,,Sir Fried Noodle,The Wok,"Stir Fried Rice Noodle, Mixed Vegetable",Hu Tieu Xao,tofu with vegetables,13.95
-,,Sir Fried Noodle,The Wok,Singapore’s Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,chicken,14.95
-,,Sir Fried Noodle,The Wok,Singapore’s Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,BBQ pork and chicken,15.50
-,,Sir Fried Noodle,The Wok,Singapore’s Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,no meat - vegetable only,13.95
+,,Vermicelli Platters,Banh hoi,Grilled Beef Wrapped in Wild Betel Leaves,Bo La Lot,grilled chicken,21.50
+,,Vermicelli Platters,Banh hoi,Grilled Beef Wrapped in Wild Betel Leaves,Bo La Lot,grilled pork,21.50
+,,Vermicelli Platters,Banh hoi,Grilled Beef Wrapped in Wild Betel Leaves,Bo La Lot,grilled pork meat balls,22.50
+,,Vermicelli Platters,Banh hoi,Grilled Beef Wrapped in Wild Betel Leaves,Bo La Lot,grilled minced shrimp on sugar cane,22.50
+,,Vermicelli Platters,Banh hoi,Grilled Beef Wrapped in Wild Betel Leaves,Bo La Lot,beef wrapped onion,21.50
+,,Vermicelli Platters,Banh hoi,Grilled Minced Shrimp on Sugar Cane,Chao Tom,grilled pork meat balls,22.50
+,,Vermicelli Platters,Banh hoi,Beef Wrapped Onion,Bo Tai Quan,grilled chicken,19.50
+,,Vermicelli Platters,Banh hoi,Beef Wrapped Onion,Bo Tai Quan,grilled pork,19.50
+,,Vermicelli Platters,Banh hoi,Beef Wrapped Onion,Bo Tai Quan,grilled pork meat balls,21.50
+,,Vermicelli Platters,Banh hoi,Beef Wrapped Onion,Bo Tai Quan,grilled minced shrimp on sugar cane,21.50
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Rice and Egg Noodle Soup",Hu Tieu Mi ,regular,13.95
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Rice and Egg Noodle Soup",Kho Hoac Nuoc,soup on the side,13.95
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Clear Noodle Soup",Hu Tieu My Tho,regular,15.50
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Clear Noodle Soup",Kho Hoac Nuoc,soup on the side,15.50
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Egg Noodle Soup",Mi Dac Biet,regular,13.95
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices with Egg Noodle Soup",Kho Hoac Nuoc,soup on the side,13.95
+,,Special Vietnamese Noodle Soups,,"Spicy Hue Rice Noodle Soup with BBQ Pork Slices, Vietnamese Ham and Beef",Bun Bo Hue (Cay),,13.95
+,,Special Vietnamese Noodle Soups,,"Seafood, BBQ Pork Slices Tapioca Noodle Soup",Banh Canh,,13.95
+,,Special Vietnamese Noodle Soups,,Wonton Soup,Hoanh Thanh Sup,,12.50
+,,Special Vietnamese Noodle Soups,,Wonton and Egg Noodle Soup,Toanh Thanh Mi,,12.50
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,chicken,14.95
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,beef,15.50
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,shrimp,15.95
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,seafood,16.50
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,shrimp and chicken,15.95
+,,Stir Fried Noodles,The Wok,"Stir Fried Rice Noodle, Mixed Vegetables",Hu Tieu Xao,tofu with vegetables,13.95
+,,Stir Fried Noodles,The Wok,Singapore Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,chicken,14.95
+,,Stir Fried Noodles,The Wok,Singapore Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,BBQ pork and chicken,15.50
+,,Stir Fried Noodles,The Wok,Singapore Style Stir Fried Vermicelli with Vegetables and Egg,Hu Tieu Xao,vegetables,13.95
 ,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,chicken,14.95
 ,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,beef,15.50
 ,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,shrimp,15.95
 ,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,seafood,16.50
-,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Pad Thai with Tofu, Vegetables and Egg",,tofu - no meat,13.95
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"chicken, spicy",14.95
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"beef, spicy",15.50
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"shrimp, spicy",15.95
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"seafood, spicy",16.50
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,Pad Siew Flat Noodle with Vegetables,,"tofu - no meat, spicy",13.95
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,chicken,14.95
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,beef,15.50
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,shrimp,15.95
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,seafood,16.50
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,shrimp and chicken,15.95
+,,Thai Dishes,,Spicy Pad Siew Flat Noodle with Vegetables,,tofu - no meat,13.95
 ,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,chicken,14.95
 ,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,beef,15.50
 ,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,shrimp,15.95
 ,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,seafood,16.50
-,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,"shrimp, chicken",15.95
+,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,shrimp and chicken,15.95
 ,,Thai Dishes,,Stir Fried with Crispy Egg Noodles and Vegetables,,tofu - no meat,13.95
 ,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,chicken,14.95
 ,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,beef,15.50
 ,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,shrimp,15.95
 ,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,seafood,16.50
-,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Stir Fried Chowmein with Bean Sprouts, Onion and Vegetables",,tofu - no meat,13.95
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"chicken, spicy",14.95
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"beef, spicy",15.50
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"shrimp, spicy",15.95
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"seafood, spicy",16.50
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,"tofu - no meat, spicy",13.95
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"chicken, spicy",14.95
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"beef, spicy",15.50
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"shrimp, spicy",15.95
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"seafood, spicy",16.50
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,"tofu - no meat, spicy",13.95
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,chicken (spicy),14.95
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,beef (spicy),15.50
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,shrimp (spicy),15.95
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,seafood (spicy),16.50
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,shrimp and chicken (spicy),15.95
+,,Thai Dishes,,Deep Fried Shrimp in Spicy Salt with Peppers and Onion,,tofu - no meat (spicy),13.95
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,chicken (spicy),14.95
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,beef (spicy),15.50
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,shrimp (spicy),15.95
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,seafood (spicy),16.50
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,shrimp and chicken (spicy),15.95
+,,Thai Dishes,,Deep Fried Squid in Spicy Salt with Peppers and Onion,,tofu - no meat (spicy),13.95
 ,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,chicken,14.95
 ,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,beef,15.50
 ,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,shrimp,15.95
 ,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,seafood,16.50
-,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Stir Fried Ginger with Peppers, Ginger, Pineapple and Onion",,tofu - no meat,13.95
 ,,Thai Dishes,,Basil Mussels,,chicken,14.95
 ,,Thai Dishes,,Basil Mussels,,beef,15.50
 ,,Thai Dishes,,Basil Mussels,,shrimp,15.95
 ,,Thai Dishes,,Basil Mussels,,seafood,16.50
-,,Thai Dishes,,Basil Mussels,,"shrimp, chicken",15.95
+,,Thai Dishes,,Basil Mussels,,shrimp and chicken,15.95
 ,,Thai Dishes,,Basil Mussels,,tofu - no meat,13.95
 ,,Thai Dishes,,Black Bean Sauce Mussels,,chicken,14.95
 ,,Thai Dishes,,Black Bean Sauce Mussels,,beef,15.50
 ,,Thai Dishes,,Black Bean Sauce Mussels,,shrimp,15.95
 ,,Thai Dishes,,Black Bean Sauce Mussels,,seafood,16.50
-,,Thai Dishes,,Black Bean Sauce Mussels,,"shrimp, chicken",15.95
+,,Thai Dishes,,Black Bean Sauce Mussels,,shrimp and chicken,15.95
 ,,Thai Dishes,,Black Bean Sauce Mussels,,tofu - no meat,13.95
 ,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,chicken,14.95
 ,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,beef,15.50
 ,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,shrimp,15.95
 ,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,seafood,16.50
-,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,"shrimp, chicken",15.95
+,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,shrimp and chicken,15.95
 ,,Thai Dishes,,Chef’s Signature Stir Fried Mixed Vegetables,,tofu - no meat,13.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"chicken, mild",14.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"beef, mild",15.50
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"shrimp, mild",15.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"Seafood, mild",16.50
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"shrimp, chicken, mild",15.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"tofu - no meat, mild",13.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"chicken, spicy",14.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"beef, spicy",15.50
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"shrimp, spicy",15.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"seafood, spicy",16.50
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,"Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,"tofu - no meat, spicy",13.95
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,chicken,14.95
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,beef,15.50
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,shrimp,15.95
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,seafood,16.50
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,shrimp and chicken,15.95
+,,Thai Dishes,,"Mild Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,tofu - no meat,13.95
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,chicken,14.95
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,beef,15.50
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,shrimp,15.95
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,seafood,16.50
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,shrimp and chicken,15.95
+,,Thai Dishes,,"Spicy Thai Red Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot",,tofu - no meat,13.95
 ,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,chicken,14.95
 ,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,beef,15.50
 ,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,shrimp,15.95
 ,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,seafood,16.50
-,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Thai Yellow Curry - Basil Leaves, Eggplant, Chili, Long Beans, Carrot, Potato and Bamboo Shoot on Rice",,tofu - no meat,13.95
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"chicken, spicy",14.95
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"beef, spicy",15.50
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"shrimp, spicy",15.95
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"seafood, spicy",16.50
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,"Thai Spicy - Stir Fried with Peppers, Carrot, Pineapple, Onion",,"tofu - no meat, spicy",13.95
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,chicken,14.95
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,beef,15.50
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,shrimp,15.95
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,seafood,16.50
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,shrimp and chicken,15.95
+,,Thai Dishes,,"Spicy Thai - Stir Fried with Peppers, Carrot, Pineapple, Onion",,tofu - no meat,13.95
 ,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,chicken,14.95
 ,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,beef,15.50
 ,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,shrimp,15.95
 ,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,seafood,16.50
-,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Black Bean - Stir Fried Peppers, Celery, Onion",,tofu - no meat,13.95
 ,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,chicken,14.95
 ,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,beef,15.50
 ,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,shrimp,15.95
 ,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,seafood,16.50
-,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,"shrimp, chicken",15.95
+,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,shrimp and chicken,15.95
 ,,Thai Dishes,,"Mango - Stir Fried Peppers, Basil, Onion",,tofu - no meat,13.95
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"chicken, spicy",14.95
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"beef, spicy",15.50
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"shrimp, spicy",15.95
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"seafood, spicy",16.50
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"shrimp, chicken, spicy",15.95
-,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,"tofu - no meat, spicy",13.95
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,chicken,14.95
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,beef,15.50
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,shrimp,15.95
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,seafood,16.50
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,shrimp and chicken,15.95
+,,Thai Dishes,,"Spicy Peanut - Stir Fried Peppers, Celery, Onion",,tofu - no meat,13.95
 ,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,chicken,14.95
 ,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,beef,15.50
 ,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,shrimp,15.95
 ,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,seafood,16.50
-,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,"shrimp, chicken",15.95
+,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,shrimp and chicken,15.95
 ,,Thai Dishes,,Stir Fried Broccoli and Bok Choy,,tofu - no meat,13.95
 ,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,chicken,15.95
 ,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,beef,16.50
 ,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,shrimp,16.95
 ,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,seafood,17.50
-,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,"shrimp, chicken",16.95
+,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,shrimp and chicken,16.95
 ,,Thai Dishes,,"Cashew Nut - Stir Fried Baby Corn, Carrot, Peppers, Onion",,tofu - no meat,14.95
-,,Vegetarian,Vegetarian,Vegetable Spring Rolls,Cha Gio Chay,2 rolls,6.50
-,,Vegetarian,Vegetarian,Vegetable Spring Rolls,Cha Gio Chay,4 rolls,12.50
-,,Vegetarian,Vegetarian,Vegetable Fresh Rolls,Goi Cuon Chay,2 rolls,5.95
-,,Vegetarian,Vegetarian,Vegetable Fresh Rolls,Goi Cuon Chay,4 rolls,11.50
-,,Vegetarian,Vegetarian,Vegetable Pad Thai with Tofu and Egg,Pad Thai Rau Cai voi Dau Hu va Trung,,13.95
-,,Vegetarian,Vegetarian,Vegetable Fried Rice with Egg,Com Chien Rau Cai voi Trung,,13.95
-,,Vegetarian,Vegetarian,Stir Fried Mixed Vegetables with Egg Noodles and Tofu,Mi Xao Rau Cai voi Trung va Dau Hu,,13.95
-,,Vegetarian,Vegetarian,Singapore Style Stir Fried Vermicelli with Egg,Bun Xao Rau Cai Kiểu Singapore voi Trung,,13.95
-,,Vegetarian,Vegetarian,Stir Fried Mixed Vegetables with Flat Noodles and Tofu,Hu Tieu Xao Tau Cai va Dau Hu,,13.95
-,,Vegetarian,Vegetarian,"Stir Fried Tofu, Mixed Vegetables",Dau Hu Xao Rau Cai,,13.95
-,,Vegetarian,Vegetarian,Mixed Tofu with Eggplant,Dau Hu Xao Ca Tim,,13.95
-,,Vegetarian,Vegetarian,Mixed Tofu with Broccoli,Dau Hu Xao Bong Cai Xanh,,13.95
-,,Vegetarian,Vegetarian,"Stir Fried Tofu, Mixed Vegetables with Red Curry on Rice","Dau Hu Xao Rau Cai - Thai Cải Do, Com",,13.95
-,,Vegetarian,Vegetarian,"Stir Fried Tofu, Mixed Vegetables with Green Curry on Rice","Dau Hu Xao Rau Cai - Thai Cai Xanh, Com",,13.95
-,,Vegetarian,Vegetarian,"Stir Fried Tofu, Mixed Vegetables with Yellow Curry on Rice","Dau Hu Xao Rau Cai - Thai Cải Vang, Com",,13.95
-,,Vegetarian,Vegetarian,"Stir Fried Mushroom & Tomato with Tofu, Steamed Rice","Nam, Ca chua xao Đâu hu, Com",,13.95
-,,Desserts,Desserts,Three Colours Dessert,Che Ba Mau,,5.95
-,,Desserts,Desserts,Lychee on Ice,Trai Vai Uop Da,,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Strawberry,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Avocado,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Mango,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Coconut,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Jackfruits,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Pineapple,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Soup Sop,5.95
-,,Desserts,Desserts,Smoothies,Sinh To,Papaya,5.95
-,,Desserts,Desserts,Coconut and Mungbean Smoothies,Sinh To Đưa Xiem Đâu Xanh,,5.95
-,,Desserts,Desserts,Durian Smoothies,Sinh To Sau Rieng,,5.95
-,,Desserts,Desserts,Coconut Juice,Nuoc Dua Xiem,,4.95
-,,Desserts,Desserts,Black Ice Coffee,Cafe Den Da,,4.95
-,,Desserts,Desserts,Vietnamese Coffee with Condensed Milk,Cafe Sua Da,,4.95
-,,Boba Tea,,Slushy,,Strawberry,5.95
-,,Boba Tea,,Slushy,,Honeydew,5.95
-,,Boba Tea,,Slushy,,Taro,5.95
-,,Boba Tea,,Slushy,,Almond,5.95
-,,Boba Tea,,Slushy,,Lychee,5.95
-,,Boba Tea,,Slushy,,Red Bean,5.95
-,,Boba Tea,,Slushy,,Matcha,5.95
-,,Boba Tea,,Slushy,,Pineapple,5.95
-,,Boba Tea,,Slushy,,Coconut,5.95
-,,Boba Tea,,Slushy,,Mango,5.95
-,,Boba Tea,,Slushy,,Peach,5.95
-,,Boba Tea,,Slushy,,Passion Fruit,5.95
-,,Boba Tea,,Slushy,,Green Apple,5.95
-,,Boba Tea,,Slushy,,Watermelon,5.95
-,,Boba Tea,,Slushy,,Banana,5.95
-,,Boba Tea,,Slushy,,Blueberry,5.95
-,,Boba Tea,,Milk Tea,,Strawberry,5.95
-,,Boba Tea,,Milk Tea,,Honeydew,5.95
-,,Boba Tea,,Milk Tea,,Taro,5.95
-,,Boba Tea,,Milk Tea,,Almond,5.95
-,,Boba Tea,,Milk Tea,,Lychee,5.95
-,,Boba Tea,,Milk Tea,,Red Bean,5.95
-,,Boba Tea,,Milk Tea,,Matcha,5.95
-,,Boba Tea,,Milk Tea,,Pineapple,5.95
-,,Boba Tea,,Milk Tea,,Coconut,5.95
-,,Boba Tea,,Milk Tea,,Mango,5.95
-,,Boba Tea,,Milk Tea,,Peach,5.95
-,,Boba Tea,,Milk Tea,,Passion Fruit,5.95
-,,Boba Tea,,Milk Tea,,Green Apple,5.95
-,,Boba Tea,,Milk Tea,,Watermelon,5.95
-,,Boba Tea,,Milk Tea,,Banana,5.95
-,,Boba Tea,,Milk Tea,,Blueberry,5.95
-,,Soft Drinks,,Coke,,,1.95
-,,Soft Drinks,,Diet Coke,,,1.95
-,,Soft Drinks,,Root Beer,,,1.95
-,,Soft Drinks,,Sprite,,,1.95
-,,Soft Drinks,,Ginger Ale,,,1.95
-,,Soft Drinks,,Iced Tea,,,2.25
-,,Soft Drinks,,Bottled Water,,,1.95
+,,Vegetarian,,Vegetable Spring Rolls,Cha Gio Chay,2 rolls,6.50
+,,Vegetarian,,Vegetable Spring Rolls,Cha Gio Chay,4 rolls,12.50
+,,Vegetarian,,Vegetable Fresh Rolls,Goi Cuon Chay,2 rolls,5.95
+,,Vegetarian,,Vegetable Fresh Rolls,Goi Cuon Chay,4 rolls,11.50
+,,Vegetarian,,Vegetable Pad Thai with Tofu and Egg,Pad Thai Rau Cai voi Dau Hu va Trung,,13.95
+,,Vegetarian,,Vegetable Fried Rice with Egg,Com Chien Rau Cai voi Trung,,13.95
+,,Vegetarian,,Stir Fried Mixed Vegetables with Egg Noodles and Tofu,Mi Xao Rau Cai voi Trung va Dau Hu,,13.95
+,,Vegetarian,,Singapore Style Stir Fried Vermicelli with Egg,Bun Xao Rau Cai Kiểu Singapore voi Trung,,13.95
+,,Vegetarian,,Stir Fried Mixed Vegetables with Flat Noodles and Tofu,Hu Tieu Xao Tau Cai va Dau Hu,,13.95
+,,Vegetarian,,"Stir Fried Tofu, Mixed Vegetables",Dau Hu Xao Rau Cai,,13.95
+,,Vegetarian,,Mixed Tofu with Eggplant,Dau Hu Xao Ca Tim,,13.95
+,,Vegetarian,,Mixed Tofu with Broccoli,Dau Hu Xao Bong Cai Xanh,,13.95
+,,Vegetarian,,"Stir Fried Tofu, Mixed Vegetables with Red Curry on Rice","Dau Hu Xao Rau Cai - Thai Cải Do, Com",,13.95
+,,Vegetarian,,"Stir Fried Tofu, Mixed Vegetables with Green Curry on Rice","Dau Hu Xao Rau Cai - Thai Cai Xanh, Com",,13.95
+,,Vegetarian,,"Stir Fried Tofu, Mixed Vegetables with Yellow Curry on Rice","Dau Hu Xao Rau Cai - Thai Cải Vang, Com",,13.95
+,,Vegetarian,,"Stir Fried Mushroom & Tomato with Tofu, Steamed Rice","Nam, Ca chua xao Đâu hu, Com",,13.95
+,,Drinks & Desserts,,Three Colours Dessert,Che Ba Mau,,5.95
+,,Drinks & Desserts,,Lychee on Ice,Trai Vai Uop Da,,5.95
+,,Drinks & Desserts,,Coconut Juice,Nuoc Dua Xiem,,4.95
+,,Drinks & Desserts,,Black Iced Coffee,Cafe Den Da,,4.95
+,,Drinks & Desserts,,Vietnamese Coffee with Condensed Milk,Cafe Sua Da,,4.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Strawberry,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Avocado,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Mango,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Coconut,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Jackfruits,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Pineapple,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Soup Sop,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Papaya,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Coconut and Mung Bean,5.95
+,,Drinks & Desserts,,Smoothies,Sinh To,Durian,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Strawberry,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Honeydew,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Taro,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Almond,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Lychee,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Red Bean,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Matcha,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Pineapple,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Coconut,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Mango,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Peach,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Passion Fruit,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Green Apple,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Watermelon,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Banana,5.95
+,,Drinks & Desserts,,Boba Tea - Slushy,,Blueberry,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Strawberry,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Honeydew,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Taro,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Almond,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Lychee,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Red Bean,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Matcha,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Pineapple,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Coconut,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Mango,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Peach,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Passion Fruit,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Green Apple,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Watermelon,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Banana,5.95
+,,Drinks & Desserts,,Boba Tea - Milk Tea,,Blueberry,5.95
+,,Drinks & Desserts,,Soft Drinks,,Coke,1.95
+,,Drinks & Desserts,,Soft Drinks,,Diet Coke,1.95
+,,Drinks & Desserts,,Soft Drinks,,Root Beer,1.95
+,,Drinks & Desserts,,Soft Drinks,,Sprite,1.95
+,,Drinks & Desserts,,Soft Drinks,,Ginger Ale,1.95
+,,Drinks & Desserts,,Soft Drinks,,Iced Tea,2.25
+,,Drinks & Desserts,,Soft Drinks,,Bottled Water,1.95
 ,,Party Trays,,Spring Rolls,Cha Gio,26 rolls,65.00
 ,,Party Trays,,Shrimp Salad Rolls,Goi Cuon,26 rolls,65.00
 ,,Party Trays,,Thai Fresh Mango Salad on Shrimp,Goi Xoai Tom,,65.00
