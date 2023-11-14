@@ -410,4 +410,16 @@ insert into items (id, section, section_vietnamese, name, name_vietnamese, item_
 insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (410, 'Party Trays', null, 'Stir Friend Chicken and Shrimp Chowmein', 'Mi Xao Ga, Tom', null, 65);
 insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (411, 'Party Trays', null, 'Stir Fried Beef with Mixed Vegetables', 'Thit Bo Xao Rau Cai', null, 65);
 insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (412, 'Party Trays', null, 'Deep Fried Chicken Wings', 'Canh Ga Chien', '40 pieces', 55);
-
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (413, 'Add Ons', null, 'Extra Fish Sauce', null, null, 0.9);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (414, 'Add Ons', null, 'Extra Peanut Sauce', null, null, 1.15);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (415, 'Add Ons', null, 'Extra Sweet Chili Thai Sauce', null, null, 1.15);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (416, 'Add Ons', null, 'Extra Broken Rice', null, null, 2.9);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (417, 'Add Ons', null, 'Extra Rice', null, null, 2.9);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (418, 'Add Ons', null, 'Extra Vermicelli', null, null, 2.9);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (419, 'Add Ons', null, 'Extra Pho Broth - Large', null, null, 7.5);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (420, 'Add Ons', null, 'Extra Chicken Broth - Large', null, null, 6.35);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (421, 'Add Ons', null, 'Extra Mixed Steamed Veggies', null, null, 4.6);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (422, 'Add Ons', null, 'Extra Grilled Chicken', null, null, 6.35);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (423, 'Add Ons', null, 'Extra Grilled Beef', null, null, 8.05);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (424, 'Add Ons', null, 'Extra Grilled Pork Chop', null, null, 5.75);
+insert into items (id, section, section_vietnamese, name, name_vietnamese, item_option, price) values (425, 'Add Ons', null, 'Extra Side Rice Pho Soup', null, null, 2);
